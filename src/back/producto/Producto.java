@@ -21,7 +21,9 @@ public class Producto {
         this.descuento = 0;
     }
 
-   
+    public float getDescuento() {
+        return descuento;
+    }
 
     public void setDescuento(float descuento) {
         this.descuento = descuento;
